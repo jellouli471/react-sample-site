@@ -1,0 +1,63 @@
+
+.main-card {
+  padding: 0px 15px;
+border: 1px solid gray;
+  height: 18rem;
+  width: 26rem;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  padding: 10px;
+}
+.main-card .image img{
+  width: 80%;
+}
+.image-title {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.row-cards{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 2px;
+  justify-content: center;
+  gap: 15px;
+
+}
+.title-price{
+  padding-left: 8px;
+  gap: 10px;
+}
+.title h1{
+  font-size: 20px;
+}
+.price h3{
+  font-size: 15px;
+
+}
+.addfv-buy{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.add-fv button{
+  width: 80%;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #515151;
+  cursor: pointer;
+}
+
+.button-buy button{
+  width: 80%;
+  height: 40px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #3AA39F;
+  cursor: pointer;
+}

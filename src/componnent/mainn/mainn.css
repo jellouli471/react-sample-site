@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+
+
+
+
+
+.product{
+  height: 88.5vh;
+  display: grid;
+  grid-template-columns: 1.3fr 2fr;
+  gap: 5px;
+}
+.info-product{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+}
+.info-product div{
+  margin: 15px 0px;
+}
+.price-starss {
+  display: flex;
+
+align-items: center;
+  
+  
+}
+.price-starss .product-stars {
+  padding: 0px 28%;
+
+}
+.product-stars i{
+  cursor: pointer;
+}
+
+.product-cont-buy{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.contt {
+  height: 40px;
+  width: 130.28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+
+}
+.bottun-add-card{
+  padding-right: 39%;
+}
+.bottun-add-card button{
+  height: 40px;
+  width: 130.28px;
+  border: none;
+
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #3AA39F;
+  color: aliceblue;
+}
+.product-colorr input{
+  
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  border-radius: 100%;
+  border: none;
+  
+  
+}
+
+#c-C1BDB3{
+  background-color: #C1BDB3;
+  cursor: pointer;
+
+}
+#c-58737D{
+  background-color: #58737D;
+  cursor: pointer;
+
+}
+#c-545454{
+  background-color: #545454;
+  cursor: pointer;
+}
+#c-CBA5A5{
+  background-color: #CBA5A5;
+  cursor: pointer;
+}
+
+
+.title-product{
+  font-family: sans-serif;
+}
+
+
+
+.img-product{
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.img-prens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-prens img{
+  width: 600px;
+}
+.img-product .galery-product{
+  width: 70%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.img-product .galery-product img{
+  width: 90%;
+
+
+}
+.center-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.img11, .img22, .img44{
+  border: 1px solid #D1D1D8;
+  margin: 0px 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.na9is h3 , .za2id h3{
+  cursor: pointer;
+}
